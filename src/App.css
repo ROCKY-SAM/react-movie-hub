@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Sigmar+One");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +8,7 @@
 html,
 body {
   margin: 0;
-  background: rgb(49, 49, 49);
+  background: rgb(32, 32, 32);
   font-family: "Montserrat", helvetica, arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -166,7 +167,29 @@ body {
 .movie_social a{
   text-decoration: none;
   font-weight: bold;
-  color: gray;
+  color: rgb(226, 226, 226);
+}
+
+.gotoLink{
+  display: inline-block;
+    margin-top: 5px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px !important;
+}
+
+.mainTitle{
+  font-size: 42px !important;
+  /* font-style: italic; */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  font-family: "Sigmar One"
 }
 
  

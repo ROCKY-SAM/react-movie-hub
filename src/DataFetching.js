@@ -39,12 +39,14 @@ function DataFetching(){
     </div>
      <div className="movie_social">
       <ul>
-        <li><i className="material-icons"><a href={post.url}>More</a></i></li>
+        <li><i className="gotoLink"><a href={post.url} target="_blank">View in YTS</a></i></li>
+      </ul>
+      <br></br>
+      <ul>
+        <li><i className="material-icons">Download</i></li>
         {post.torrents.map(txt => 
-        <li><i className="material-icons"><a href={txt.url}>{txt.quality}({txt.size})</a></i></li>
+        <li><i className="gotoLink"><a href={txt.url}>{txt.quality}({txt.size})</a></i></li>
         )} 
-        {/* <li><i className="material-icons"></i></li>
-        <li><i className="material-icons">chat_bubble</i></li> */}
       </ul>
     </div> 
   </div>
