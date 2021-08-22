@@ -191,5 +191,13 @@ body {
   margin-bottom: -50px;
   font-family: "Sigmar One"
 }
-
+.fetching{
+  font-size: 20px !important;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: "Sigmar One"
+}
  
