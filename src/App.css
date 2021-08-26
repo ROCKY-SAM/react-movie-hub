@@ -201,3 +201,8 @@ body {
   font-family: "Sigmar One"
 }
  
+[class*="styles_scroll-to-top"] {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 16px;
+}

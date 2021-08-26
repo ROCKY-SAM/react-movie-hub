@@ -5,7 +5,7 @@ import ScrollToTop from "react-scroll-to-top";
 function App() {
   return (
     <div className="App">
-      <b className="mainTitle">Movie plaza</b>
+      <b className="mainTitle">Sam's MovieHub</b>
         <DataFetching/>
         <ScrollToTop smooth color="#6f00ff" />
     </div>
